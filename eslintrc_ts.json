@@ -1,16 +1,19 @@
 {
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es6": true
+  "env" : {
+    "browser" : true,
+    "commonjs" : true,
+    "es2021" : true
   },
-  "extends": "eslint:recommended",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+  "parserOptions" : {
+    "ecmaFeatures" : {
+      "jsx" : true
     },
-    "sourceType": "module"
+    "sourceType" : "module",
+    "parser" : "@typescript-eslint/parser",
+    "plugins" : "@typescript-eslint"
   },
-  "rules": {
-     }
+  "extends" : [ "eslint:recommended", "plugin:@typescript-eslint/recommended" ],
+  "rules" : {
+
+  }
 }
