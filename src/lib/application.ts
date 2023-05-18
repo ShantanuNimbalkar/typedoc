@@ -616,7 +616,17 @@ export class Application extends ChildableComponent<
 
             return result;
         });
+            const promise = new Promise((resolve, reject) => resolve('value'));
+promise;
 
+async function returnsPromise() {
+  return 'value';
+}
+returnsPromise().then(() => {});
+
+Promise.reject('value').catch();
+
+Promise.reject('value').finally();
         const jsonProjects = entryPoints.map((path) => {
             try {
                 return JSON.parse(readFile(path));
