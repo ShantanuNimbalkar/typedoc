@@ -14,6 +14,6 @@
   },
   "extends" : [ "eslint:recommended", "plugin:@typescript-eslint/recommended" ],
   "rules" : {
-    "ban-types": 0
+    "no-empty-interface": 0
   }
 }
