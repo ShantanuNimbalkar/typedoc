@@ -14,6 +14,6 @@
   },
   "extends" : [ "eslint:recommended", "plugin:@typescript-eslint/recommended" ],
   "rules" : {
-    "no-empty-interface": "off"
+    "TS_no-empty-interface": "off"
   }
 }
