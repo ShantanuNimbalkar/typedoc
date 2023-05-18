@@ -12,5 +12,6 @@
     "sourceType": "module"
   },
   "rules": {
+      "TS_ban-types":0
      }
 }
